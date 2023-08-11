@@ -33,7 +33,6 @@ Data Source           |  Data Source
 For an in-depth overview of how these skills were proficiently utilized to achieve the solution for the problem, kindly consult the project's comprehensive documentation or report.![here](https://github.com/Eriayomide/Recommendation-Engine) 
 
 ---
-
 - Machine Learning Algorithms: Utilizing collaborative filtering with Alternating Least Squares (ALS) demonstrates proficiency in employing advanced machine learning techniques for personalized recommendation systems.
 
 - Data Preprocessing: Cleaning and preparing raw data, transforming it into a suitable format for input into the ALS model.
@@ -58,7 +57,6 @@ Feature Engineering: Extracting and engineering relevant features from the data 
 ---
 ## Methodology
 ---
-
 -  Data Transformation and Normalization: The initial step involves transforming and normalizing the data to facilitate effective analysis. This includes data preprocessing tasks such as handling missing values, converting categorical variables, and normalizing numerical features.
 
 -  Model Training: Following data preparation, the collaborative filtering technique with implicit feedback is employed. In this approach, no explicit ratings are needed from customers/users; instead, it relies on interactions between customers and products. The training process involves utilizing a sparse matrix containing non-zero interactions between customers and products.
@@ -78,7 +76,6 @@ Feature Engineering: Extracting and engineering relevant features from the data 
 Through exploratory data analysis, we delved deeper into the dataset, examining it from diverse perspectives. Our focus included detecting missing values, identifying duplicate entries, and transforming data to align with the requirements of our product recommendation model. These transformations encompassed tasks such as converting customer IDs into categorical data and grouping purchase quantities by Product_ID and item ID.
 In our data preparation process, we made adjustments to ensure robustness. Specifically, we converted zero-sum interactions to one, indicating actual purchases instead of assuming no engagement. Furthermore, we filtered out customers with non-positive purchase totals to enhance data accuracy.
 To facilitate the subsequent recommendation model, we structured a sparse ratings matrix. This matrix forms a foundation for our collaborative filtering approach, which will be instrumental in generating effective product recommendations.
-
 exploration1           |  exploration2
 :---------------:     |:----------------:
  ![](exploratory.png) | ![](exploration1.png)  
@@ -88,21 +85,19 @@ exploration1           |  exploration2
 ## Feature Engineering: 
  ![](exploration.png)
 
----
 Extracting and engineering relevant features from the data to create meaningful input for the recommendation model.
 
 ---
 ## Model Selction
----
+
 ### Alternating Least Squares (ALS) 
 
 ALS is chosen as the collaborative filtering technique. It involves decomposing the sparse matrix into user and item latent factors to capture underlying patterns and preferences.
 
 ---
 ## Model Training with Alternating Least Squares (ALS)
----
-![](modeltraining.png)
 
+![](modeltraining.png)
 To harness the power of collaborative filtering, the Alternating Least Squares (ALS) recommendation model is initialized and subsequently trained using the sparse_product_customer matrix. This matrix, which encapsulates non-zero interactions between products and customers, serves as the cornerstone of the ALS model's learning process. By fitting the ALS model to this specialized matrix, we enable it to uncover latent factors and intricate patterns within user-product interactions, ultimately empowering the model to provide accurate and personalized product recommendations.
 
 ---
@@ -110,15 +105,13 @@ To harness the power of collaborative filtering, the Alternating Least Squares (
 ## Model Evaluation using AUC for ALS (Alternating Least Squares Model)
 ---
 ![](evaluation3)
-
 In the process of assessing the performance of our recommendation engine, we employed the AUC (Area Under the Receiver Operating Characteristic Curve) metric. AUC serves as a valuable gauge of the model's predictive accuracy, with higher values indicating better performance. An exceptional model is characterized by an AUC value closer to 1.
-
 In our case, the ALS model achieved an AUC of 0.77. This outcome signifies that the recommendation system excels in suggesting items that the user had indeed purchased from the test set, surpassing items the user never engaged with. This performance demonstrates the model's proficiency in accurately predicting user preferences and enhancing the quality of product recommendations. While not perfect, the achieved AUC of 0.77 underscores the efficacy and reliability of our ALS-based recommendation system.
 
 ---
 ## Economic Impact
 ---
-exploration1           |  exploration2
+economic impact           |  economic impact
 :---------------:     |:----------------:
  ![](economic.png) | ![](economic.png)  
 
@@ -132,7 +125,6 @@ The estimated result suggests a substantial additional revenue of $71,382, equiv
 
 ## Recommendation Strategy:
 ---
-
 Personalized Promotions: Utilize the product recommendations generated by our model to identify items of interest for each buyer. Craft tailored promotions related to these recommended products, ensuring that marketing efforts resonate with individual preferences and increase the likelihood of purchases.
 
 Engagement Through Feedback: Actively engage with customers by seeking their input and feedback on our product range and specifications. Encourage them to provide insights into their preferences and suggestions for improvements. This interaction not only fosters a sense of involvement but also rekindles their interest and connection with our offerings.
