@@ -120,7 +120,7 @@ In our case, the ALS model achieved an AUC of 0.77. This outcome signifies that 
 ---
 exploration1           |  exploration2
 :---------------:     |:----------------:
- ![](economic.png) | ![](economic2.png)  
+ ![](evaluation3.png) | ![](economic.png)  
 
 To gauge the potential commercial influence of the recommendation engine, the entirety of customer transaction data was harnessed. Specifically, we selected Customer ID 11000 as our focal point for estimation.
 
