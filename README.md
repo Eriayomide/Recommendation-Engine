@@ -109,7 +109,7 @@ To harness the power of collaborative filtering, the Alternating Least Squares (
 
 ## Model Evaluation using AUC for ALS (Alternating Least Squares Model)
 ---
-![](evaluation)
+![](evaluation3)
 
 In the process of assessing the performance of our recommendation engine, we employed the AUC (Area Under the Receiver Operating Characteristic Curve) metric. AUC serves as a valuable gauge of the model's predictive accuracy, with higher values indicating better performance. An exceptional model is characterized by an AUC value closer to 1.
 
@@ -120,7 +120,7 @@ In our case, the ALS model achieved an AUC of 0.77. This outcome signifies that 
 ---
 exploration1           |  exploration2
 :---------------:     |:----------------:
- ![](evaluation3.png) | ![](economic.png)  
+ ![](economic.png) | ![](economic.png)  
 
 To gauge the potential commercial influence of the recommendation engine, the entirety of customer transaction data was harnessed. Specifically, we selected Customer ID 11000 as our focal point for estimation.
 
