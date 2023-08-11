@@ -11,7 +11,7 @@ This project employs a collaborative filtering technique using implicit feedback
 ---
 
 ## Problem Statement
----
+
 To create an automated recommendation engine that offers product suggestions to customers leveraging their purchase history
 
 ---
@@ -20,16 +20,15 @@ To create an automated recommendation engine that offers product suggestions to 
 ---
 Once the client database is seamlessly linked to Python using suitable libraries, the data sourcing process begins. This involves crafting precise queries to extract pertinent data, focusing on essential dimensions such as customer ID, order quantity, revenue, and product ID. This strategic data extraction lays the groundwork for subsequent analysis and insights.
 
-
 Data Source           |  Data Source
 :---------------:     |:----------------:
  ![](connectingtosql.png) | ![](connect.png)  
 
- ---
 
- ---
+---
 
 ## Skill Demostrated 
+---
 For an in-depth overview of how these skills were proficiently utilized to achieve the solution for the problem, kindly consult the project's comprehensive documentation or report.![here](https://github.com/Eriayomide/Recommendation-Engine) 
 
 ---
