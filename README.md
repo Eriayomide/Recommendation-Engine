@@ -17,7 +17,7 @@ To create an automated recommendation engine that offers product suggestions to 
 ---
 
 ## Data Source and Integration
-
+---
 Once the client database is seamlessly linked to Python using suitable libraries, the data sourcing process begins. This involves crafting precise queries to extract pertinent data, focusing on essential dimensions such as customer ID, order quantity, revenue, and product ID. This strategic data extraction lays the groundwork for subsequent analysis and insights.
 
 
